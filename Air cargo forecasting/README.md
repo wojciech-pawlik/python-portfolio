@@ -13,7 +13,9 @@ Data based on [kaggle](https://www.kaggle.com/rajsengo/sfo-air-traffic-passenger
 Data based on [transstats](https://www.transtats.bts.gov/freight.asp).
 
 Preparation - crawling the data from the site using [scrapy](https://scrapy.org/):
-`!scrapy runspider ac_spider.py -O Data/AirCargoData.json`
+```[shell]
+$ scrapy runspider ac_spider.py -O Data/AirCargoData.json
+```
 
 1. Importing and preparing the data.
 2. Analysis of the time series.
